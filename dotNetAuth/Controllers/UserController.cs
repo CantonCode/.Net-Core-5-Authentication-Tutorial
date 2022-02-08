@@ -85,19 +85,20 @@ namespace dotNetAuth.Controllers
                 var email = model.Email;
                 var password = model.Password;
 
-                if(email == "" || password == "")
+                if (ModelState.IsValid)
                 {
-                    return await Task.FromResult("Paramaters are missing");
-                }
+                    var result = await _signManager.PasswordSignInAsync(email, password, false, false);
 
-                var result = await _signManager.PasswordSignInAsync(email, password, false, false);
+                    if (result.Succeeded)
+                    {
+                        return await Task.FromResult("Login Success");
+                    }
 
-                if (result.Succeeded)
-                {
-                    return await Task.FromResult("Login Success");
                 }
 
                 return await Task.FromResult("Invalid Email or Passowrd");
+                    
+
             }
             catch(Exception ex)
             {

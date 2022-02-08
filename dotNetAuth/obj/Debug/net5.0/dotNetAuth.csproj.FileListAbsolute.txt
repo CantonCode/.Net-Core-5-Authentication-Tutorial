@@ -62,6 +62,7 @@ C:\Users\conor\Documents\GitHub\.Net-Core-5-Authentication-Tutorial\dotNetAuth\b
 C:\Users\conor\Documents\GitHub\.Net-Core-5-Authentication-Tutorial\dotNetAuth\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\conor\Documents\GitHub\.Net-Core-5-Authentication-Tutorial\dotNetAuth\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\conor\Documents\GitHub\.Net-Core-5-Authentication-Tutorial\dotNetAuth\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\conor\Documents\GitHub\.Net-Core-5-Authentication-Tutorial\dotNetAuth\obj\Debug\net5.0\dotNetAuth.csproj.AssemblyReference.cache
 C:\Users\conor\Documents\GitHub\.Net-Core-5-Authentication-Tutorial\dotNetAuth\obj\Debug\net5.0\dotNetAuth.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\conor\Documents\GitHub\.Net-Core-5-Authentication-Tutorial\dotNetAuth\obj\Debug\net5.0\dotNetAuth.AssemblyInfoInputs.cache
 C:\Users\conor\Documents\GitHub\.Net-Core-5-Authentication-Tutorial\dotNetAuth\obj\Debug\net5.0\dotNetAuth.AssemblyInfo.cs

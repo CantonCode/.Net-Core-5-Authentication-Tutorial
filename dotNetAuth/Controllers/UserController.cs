@@ -1,5 +1,6 @@
 ﻿using dotNetAuth.BindingModel;
 using dotNetAuth.Data.Entities;
+using dotNetAuth.NewFolder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -58,8 +59,50 @@ namespace dotNetAuth.Controllers
             {
                 return await Task.FromResult(ex);
             }
+        }
            
+        [HttpGet("GetAllUser")]
+        public async Task<object> GetAllUser()
+        {
+            try
+            {
+                var users = _userManager.Users.Select(x => new UserDTO(x.FullName, x.Email, x.UserName,x.DateCreated)); ;
 
+                
+                return await Task.FromResult(users);
+            }
+            catch(Exception ex)
+            {
+                return await Task.FromResult(ex.Message);
+            }
+        }
+
+        [HttpPost("Login")]
+        public async Task<object> Login([FromBody] LoginBindingModel model)
+        {
+            try
+            {
+                var email = model.Email;
+                var password = model.Password;
+
+                if(email == "" || password == "")
+                {
+                    return await Task.FromResult("Paramaters are missing");
+                }
+
+                var result = await _signManager.PasswordSignInAsync(email, password, false, false);
+
+                if (result.Succeeded)
+                {
+                    return await Task.FromResult("Login Success");
+                }
+
+                return await Task.FromResult("Invalid Email or Passowrd");
+            }
+            catch(Exception ex)
+            {
+                return await Task.FromResult(ex.Message);
+            }
         }
 
      

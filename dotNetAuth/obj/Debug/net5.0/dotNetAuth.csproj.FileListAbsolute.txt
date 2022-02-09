@@ -37,7 +37,6 @@ C:\Users\conor\Documents\GitHub\.Net-Core-5-Authentication-Tutorial\dotNetAuth\b
 C:\Users\conor\Documents\GitHub\.Net-Core-5-Authentication-Tutorial\dotNetAuth\bin\Debug\net5.0\Zstandard.Net.dll
 C:\Users\conor\Documents\GitHub\.Net-Core-5-Authentication-Tutorial\dotNetAuth\bin\Debug\net5.0\MySql.Data.EntityFrameworkCore.dll
 C:\Users\conor\Documents\GitHub\.Net-Core-5-Authentication-Tutorial\dotNetAuth\bin\Debug\net5.0\MySqlConnector.dll
-C:\Users\conor\Documents\GitHub\.Net-Core-5-Authentication-Tutorial\dotNetAuth\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\conor\Documents\GitHub\.Net-Core-5-Authentication-Tutorial\dotNetAuth\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\conor\Documents\GitHub\.Net-Core-5-Authentication-Tutorial\dotNetAuth\bin\Debug\net5.0\Renci.SshNet.dll
 C:\Users\conor\Documents\GitHub\.Net-Core-5-Authentication-Tutorial\dotNetAuth\bin\Debug\net5.0\SshNet.Security.Cryptography.dll
@@ -78,3 +77,4 @@ C:\Users\conor\Documents\GitHub\.Net-Core-5-Authentication-Tutorial\dotNetAuth\o
 C:\Users\conor\Documents\GitHub\.Net-Core-5-Authentication-Tutorial\dotNetAuth\obj\Debug\net5.0\ref\dotNetAuth.dll
 C:\Users\conor\Documents\GitHub\.Net-Core-5-Authentication-Tutorial\dotNetAuth\obj\Debug\net5.0\dotNetAuth.pdb
 C:\Users\conor\Documents\GitHub\.Net-Core-5-Authentication-Tutorial\dotNetAuth\obj\Debug\net5.0\dotNetAuth.genruntimeconfig.cache
+C:\Users\conor\Documents\GitHub\.Net-Core-5-Authentication-Tutorial\dotNetAuth\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

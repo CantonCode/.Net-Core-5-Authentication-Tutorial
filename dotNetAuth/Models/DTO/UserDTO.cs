@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace dotNetAuth.NewFolder
+namespace dotNetAuth.DTO
 {
     public class UserDTO
     {

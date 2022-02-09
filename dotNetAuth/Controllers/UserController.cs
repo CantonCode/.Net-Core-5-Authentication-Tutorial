@@ -1,6 +1,6 @@
 ﻿using dotNetAuth.BindingModel;
 using dotNetAuth.Data.Entities;
-using dotNetAuth.NewFolder;
+using dotNetAuth.DTO;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
